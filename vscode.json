@@ -1,0 +1,68 @@
+{
+  // 自动保存
+  "files.autoSave": "afterDelay",
+
+  // 取消拖拽文字
+  "editor.dragAndDrop": false,
+  
+  // 颜色配置
+  "workbench.colorCustomizations":{
+      // 整体效果
+      "statusBar.background": "#5685bb8e",
+      "panel.background": "#0ba4e03a",
+      "sideBar.background": "#364b43a4",
+      "activityBar.background": "#5685bb8e",
+      // "textBlockQuote.background": "#ff0000",
+      // "selection.background":"#ff0000",
+
+
+      // 有关搜索
+      "editor.findMatchBackground": "#ffff00",
+      "editor.findMatchHighlightBackground": "#ffffff00",
+      "editor.findRangeHighlightBackground":"#4c00ff2d",
+      "editor.findMatchBorder": "#ff00ff",
+      "editor.findMatchHighlightBorder": "#ff00ff",
+
+      // hover行提示
+      "editor.lineHighlightBackground": "#3c3955ad",
+      "editor.hoverHighlightBackground":"#ffff003f",
+
+      // 有关选择
+      "editor.selectionBackground":"#ca52c09a",
+      // "editor.selectionForeground": "#ff0000",
+      // "editor.inactiveSelectionBackground": "#ff0000",
+      "editor.selectionHighlightBackground":"#66ff0060",
+      // "editor.selectionHighlightBorder": "#ff0000",
+
+      
+      // 有关读写的时候的word highlight
+      "editor.wordHighlightBackground": "#2600ff73",
+      "editor.wordHighlightBorder":"#ff0000",
+      "editor.wordHighlightStrongBackground": "#ffff00",
+      "editor.wordHighlightStrongBorder": "#0000ff",
+
+
+      // 有关标签
+      "tab.activeBackground": "#7a7777cc",
+      "tab.activeForeground": "#ffffff",
+      "tab.activeBorder": "#ffff00",
+      "tab.unfocusedActiveBorder": "#555555",
+      "tab.unfocusedActiveForeground":"#555555",
+      "tab.unfocusedInactiveForeground": "#555555",
+      "tab.unfocusedHoverBackground":"#3700ff",
+      "tab.unfocusedHoverBorder": "#ffd000",
+      "tab.hoverBackground": "#1349ddd2",
+  },
+
+  // 整体放缩
+  "window.zoomLevel": 0,
+  // "workbench.colorTheme": "One Dark Pro",
+
+
+
+  // 有关终端
+  "terminal.integrated.fontFamily": "Inconsolata for Powerline",
+  "terminal.integrated.fontSize": 16,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+} 
