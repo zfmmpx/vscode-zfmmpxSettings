@@ -7,13 +7,16 @@
   
   // 颜色配置
   "workbench.colorCustomizations":{
+      // 行号数组
+      "editorLineNumber.foreground": "#aaa",
+      // 行号数字背景
+      "editorGutter.background": "#5936752f",
+
+      
       // 整体效果
       "statusBar.background": "#5685bb8e",
-      "panel.background": "#0ba4e03a",
-      "sideBar.background": "#364b43a4",
-      "activityBar.background": "#5685bb8e",
-      // "textBlockQuote.background": "#ff0000",
-      // "selection.background":"#ff0000",
+      "panel.background": "#dfdac448",
+      "activityBar.background": "#4362868e",
 
 
       // 有关搜索
@@ -35,13 +38,6 @@
       // "editor.selectionHighlightBorder": "#ff0000",
 
       
-      // 有关读写的时候的word highlight
-      "editor.wordHighlightBackground": "#2600ff73",
-      "editor.wordHighlightBorder":"#ff0000",
-      "editor.wordHighlightStrongBackground": "#ffff00",
-      "editor.wordHighlightStrongBorder": "#0000ff",
-
-
       // 有关标签
       "tab.activeBackground": "#7a7777cc",
       "tab.activeForeground": "#ffffff",
@@ -56,9 +52,6 @@
 
   // 整体放缩
   "window.zoomLevel": 0,
-  // "workbench.colorTheme": "One Dark Pro",
-
-
 
   // 有关终端
   "terminal.integrated.fontFamily": "Inconsolata for Powerline",
