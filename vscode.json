@@ -58,4 +58,11 @@
   "terminal.integrated.fontSize": 16,
   "workbench.startupEditor": "newUntitledFile",
   "explorer.confirmDelete": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle":"block",
+  "editor.cursorBlinking":"solid",
+  "editor.cursorStyle":"block"
 } 
