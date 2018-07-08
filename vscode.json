@@ -1,58 +1,53 @@
 {
   // 自动保存
   "files.autoSave": "afterDelay",
-
   // 取消拖拽文字
   "editor.dragAndDrop": false,
-  
   // 颜色配置
-  "workbench.colorCustomizations":{
-      // 行号数组
-      "editorLineNumber.foreground": "#aaa",
-      // 行号数字背景
-      "editorGutter.background": "#5936752f",
-
-      
-      // 整体效果
-      "statusBar.background": "#5685bb8e",
-      "panel.background": "#dfdac448",
-      "activityBar.background": "#4362868e",
-
-
-      // 有关搜索
-      "editor.findMatchBackground": "#ffff00",
-      "editor.findMatchHighlightBackground": "#ffffff00",
-      "editor.findRangeHighlightBackground":"#4c00ff2d",
-      "editor.findMatchBorder": "#ff00ff",
-      "editor.findMatchHighlightBorder": "#ff00ff",
-
-      // hover行提示
-      "editor.lineHighlightBackground": "#3c3955ad",
-      "editor.hoverHighlightBackground":"#ffff003f",
-
-      // 有关选择
-      "editor.selectionBackground":"#ca52c09a",
-      // "editor.selectionForeground": "#ff0000",
-      // "editor.inactiveSelectionBackground": "#ff0000",
-      "editor.selectionHighlightBackground":"#66ff0060",
-      // "editor.selectionHighlightBorder": "#ff0000",
-
-      
-      // 有关标签
-      "tab.activeBackground": "#7a7777cc",
-      "tab.activeForeground": "#ffffff",
-      "tab.activeBorder": "#ffff00",
-      "tab.unfocusedActiveBorder": "#555555",
-      "tab.unfocusedActiveForeground":"#555555",
-      "tab.unfocusedInactiveForeground": "#555555",
-      "tab.unfocusedHoverBackground":"#3700ff",
-      "tab.unfocusedHoverBorder": "#ffd000",
-      "tab.hoverBackground": "#1349ddd2",
+  "workbench.colorCustomizations": {
+    // 行号数组
+    "editorLineNumber.foreground": "#aaa",
+    // 行号数字背景
+    "editorGutter.background": "#5936752f",
+    // 整体效果
+    "statusBar.background": "#5685bb8e",
+    "panel.background": "#dfdac448",
+    "activityBar.background": "#4362868e",
+    // 有关搜索
+    "editor.findMatchBackground": "#ffff00",
+    "editor.findMatchHighlightBackground": "#ffffff00",
+    // "editor.findRangeHighlightBackground":"#4c00ff2d",
+    "editor.findMatchBorder": "#ff00ff",
+    "editor.findMatchHighlightBorder": "#ff00ff",
+    // hover行提示
+    "editor.lineHighlightBackground": "#3c3955ad",
+    "editor.hoverHighlightBackground": "#ffff003f",
+    // 有关选择
+    // "editor.selectionBackground":"#ca52c0",
+    "editor.selectionBackground": "#ca52c09a",
+    // "editor.selectionForeground": "#ff0000",
+    // "editor.inactiveSelectionBackground": "#ff0000",
+    // "editor.selectionHighlightBackground":"#66ff0060",
+    "editor.selectionHighlightBackground": "#ca52c000",
+    "editor.selectionHighlightBorder": "#ff0800",
+    // 有关标签
+    "tab.activeBackground": "#7a7777cc",
+    "tab.activeForeground": "#ffffff",
+    "tab.activeBorder": "#ffff00",
+    "tab.unfocusedActiveBorder": "#555555",
+    "tab.unfocusedActiveForeground": "#555555",
+    "tab.unfocusedInactiveForeground": "#555555",
+    "tab.unfocusedHoverBackground": "#3700ff",
+    "tab.unfocusedHoverBorder": "#ffd000",
+    "tab.hoverBackground": "#1349ddd2",
+    // 有关读写
+    // "editor.wordHighlightBackground": "#ff0000",
+    // "editor.wordHighlightBorder": "#00ff4c",
+    "editor.wordHighlightStrongBackground": "#ff0000",
+    // "editor.wordHighlightStrongBorder": "#bbff00fd",
   },
-
   // 整体放缩
   "window.zoomLevel": 0,
-
   // 有关终端
   "terminal.integrated.fontFamily": "Inconsolata for Powerline",
   "terminal.integrated.fontSize": 16,
@@ -60,9 +55,12 @@
   "explorer.confirmDelete": false,
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle":"block",
-  "editor.cursorBlinking":"solid",
-  "editor.cursorStyle":"block"
-} 
+  "terminal.integrated.cursorStyle": "block",
+  // "editor.cursorBlinking":"solid",
+  // "editor.cursorBlinking":"phase",
+  "editor.cursorStyle": "block",
+  "terminal.integrated.rendererType": "dom",
+  // 控制编辑器是否应呈现控制字符
+  "editor.renderControlCharacters": true,
+}
